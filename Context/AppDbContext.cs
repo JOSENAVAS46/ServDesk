@@ -11,9 +11,10 @@ namespace ServDesk.Context
         public DbSet<DocumentoInterno> DocumentoInternos { get; set; }
         public DbSet<TablaGenerica> TablaGenericas { get; set; }
         public DbSet<Equipo> Equipos { get; set; }
-        public DbSet<TecnicoModel> Tecnicos { get; set; }
-        public DbSet<ClienteModel> Clientes { get; set; }
+        public DbSet<Usuario> Usuarios { get; set; }
         public DbSet<Solicitud> Solicitudes { get; set; }
+        public DbSet<Diagnostico> Diagnosticos { get; set; }
+        public DbSet<Reparacion> Reparaciones { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
