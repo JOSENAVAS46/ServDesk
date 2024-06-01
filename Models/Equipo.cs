@@ -1,6 +1,6 @@
 ﻿namespace ServDesk.Models
 {
-    public class EquipoModel
+    public class Equipo
     {
         public String Codigo { get; set; }
         public String Tipo { get; set; }

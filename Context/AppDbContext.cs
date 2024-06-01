@@ -8,12 +8,12 @@ namespace ServDesk.Context
         public AppDbContext(DbContextOptions<AppDbContext> options) : base(options)
         {
         }
-        public DbSet<DocumentoInternoModel> DocumentoInternos { get; set; }
-        public DbSet<TablaGenericaModel> TablaGenericas { get; set; }
-        public DbSet<EquipoModel> Equipos { get; set; }
+        public DbSet<DocumentoInterno> DocumentoInternos { get; set; }
+        public DbSet<TablaGenerica> TablaGenericas { get; set; }
+        public DbSet<Equipo> Equipos { get; set; }
         public DbSet<TecnicoModel> Tecnicos { get; set; }
         public DbSet<ClienteModel> Clientes { get; set; }
-        public DbSet<SolicitudModel> Solicitudes { get; set; }
+        public DbSet<Solicitud> Solicitudes { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
