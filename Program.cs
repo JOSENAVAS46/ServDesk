@@ -1,5 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 using ServDesk.Bussines.General.DocumentoInterno;
+using ServDesk.Bussines.Login.Usuario;
 using ServDesk.DataAccess;
 using ServDesk.Seguridad;
 
@@ -33,6 +34,9 @@ builder.Services.AddSingleton<IErrorSistema, ErrorSistema>();
 
 builder.Services.AddTransient<IDocumentoInterno, DocumentoInterno>();
 builder.Services.AddTransient<OperadorDocumentoInterno>();
+
+builder.Services.AddTransient<IUsuario, Usuario>();
+builder.Services.AddTransient<OperadorUsuario>();
 
 
 

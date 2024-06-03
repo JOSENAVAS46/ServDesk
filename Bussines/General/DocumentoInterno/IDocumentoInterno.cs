@@ -8,8 +8,8 @@ namespace ServDesk.Bussines.General.DocumentoInterno
     {
         SqlHelper? SqlHelper { set; get; }
         IErrorSistema? ErrorSistema { set; get; }
-        Task<DocumentoInternoModel> BuscarxCodigo(string codigo);
-        Task Actualizar(string codigo);
+        Task<DocumentoInternoModel> BuscarxCodigo(String Codigo);
+        Task Actualizar(String coCodigodigo);
 
     }
 }

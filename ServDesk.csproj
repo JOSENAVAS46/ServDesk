@@ -33,7 +33,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Bussines\Login\" />
     <Folder Include="Bussines\RolTecnico\" />
   </ItemGroup>
 
