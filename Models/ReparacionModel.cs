@@ -1,6 +1,6 @@
 ﻿namespace ServDesk.Models
 {
-    public class Reparacion
+    public class ReparacionModel
     {
         public String Codigo { get; set; }
         public String Descripcion { get; set; }

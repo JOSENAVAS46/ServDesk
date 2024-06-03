@@ -1,6 +1,6 @@
 ﻿namespace ServDesk.Models
 {
-    public class Usuario
+    public class UsuarioModel
     {
         public String Codigo { get; set; }
         public String Cedula { get; set; }

@@ -1,6 +1,6 @@
 ﻿namespace ServDesk.Models
 {
-    public class TablaGenerica
+    public class TablaGenericaModel
     {
         public String Codigo { get; set; }
         public String Tabla { get; set; }
